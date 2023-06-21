@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin: 5px;
+  min-width: 300px;
+  max-width: 450px;
+  box-shadow: 5px 5px #dafffb;
+  /* border: #4ed3c5; */
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+}
+
+.card-image img {
+  min-width: 100px;
+  min-height: 100px;
+}
